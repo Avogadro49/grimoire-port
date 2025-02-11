@@ -3,7 +3,7 @@ import styles from "./AboutMe.module.css";
 import Avatar from "../../static/images/avatar/my-avatar-forreal.png";
 import AvatarBorder from "../../static/images/avatar/avatar-border.png";
 import CodeBlock from "../../components/CodeBlock/CodeBlock";
-import Resume from "../../static/images/cv/cv_cv.pdf";
+import Resume from "../../static/images/cv/real_cv.pdf";
 import ProjectsCard from "../ProjectsCard/ProjectsCard";
 
 const AboutMe = () => {
