@@ -1,6 +1,16 @@
 [
   {
-    "image": "/src/static/images/projects/portfolio_project01.png",
+    "image": "grimoire-port/src/static/images/projects/portfolio_project01.png",
+    "description": "Game Arcadia is a dedicated game discovery platform designed to help players explore new games across all genres. Discover your next favorite game here!",
+    "links": [
+      {
+        "SourceCode": "https://github.com/Avogadro49/game-arcadia",
+        "websiteLink": "https://1010011.vercel.app/"
+      }
+    ]
+  },
+  {
+    "image": "grimoire-port/src/static/images/projects/portfolio_project01.png",
     "description": "Game Arcadia is a dedicated game discovery platform designed to help players explore new games across all genres. Discover your next favorite game here!",
     "links": [
       {

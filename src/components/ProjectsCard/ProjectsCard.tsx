@@ -15,25 +15,33 @@ const ProjectsCard: React.FC = () => {
               <img src={project.image} alt={`Project ${index + 1}`} />
             </div>
             <div className={styles.project_card_desc}>
-              <p>{project.description}</p>
+              <p className={styles.project_card_text}>{project.description}</p>
 
               {project.links && (
                 <div className={styles.project_links}>
                   {project.links.map((link, linkIndex) => (
-                    <div key={linkIndex}>
+                    <div
+                      key={linkIndex}
+                      className={styles.project_links_buttons_row}
+                    >
                       <a
                         href={link.SourceCode}
                         target="_blank"
                         rel="noopener noreferrer"
+                        className={styles.project_links_anchor}
                       >
-                        Source Code
+                        <button className={styles.project_links_button}>
+                          Source Code
+                        </button>
                       </a>
                       <a
                         href={link.websiteLink}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Live Demo
+                        <button className={styles.project_links_button}>
+                          Live
+                        </button>
                       </a>
                     </div>
                   ))}

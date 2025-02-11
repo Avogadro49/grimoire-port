@@ -17,6 +17,7 @@
 
 .about_me_text {
   font-family: "Courier New", Courier, monospace;
+  font-size: clamp(19px, 2vw, 15px);
   max-width: 40vw;
   margin: 30px;
 }
@@ -70,6 +71,9 @@
     padding: 0px;
   }
 
+  .about_me_text {
+    max-width: 70%;
+  }
   .power_shell {
     margin: auto;
   }

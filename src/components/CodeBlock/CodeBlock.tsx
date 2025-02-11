@@ -57,7 +57,7 @@ const CodeBlock: React.FC<CodeBlockProps> = ({
         marginTop: "10px",
         backgroundColor: "#012456",
         padding: "30px",
-        fontSize: "18px",
+        fontSize: "clamp(12px, 2vw, 18px);",
       }}
     >
       <div className="codeblock-heading" style={{ borderBottom: "1px solid" }}>

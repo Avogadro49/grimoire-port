@@ -1,12 +1,43 @@
 .project_card {
-    max-width: 33%;
-    padding-inline: 20px;
-    padding-block: 10px;
+  max-width: 33%;
+  padding-inline: 20px;
+  padding-block: 10px;
+}
+
+.project_card_text {
+  font-size: clamp(19px, 2vw, 15px);
+}
+
+.project_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project_links_buttons_row {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 15px;
+}
+
+.project_links_button {
+  padding: 10px;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  border: 1px solid;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media (max-width: 1039px) {
+  .project_card {
+    max-width: 100%;
   }
-  
+
   .project_list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
   }
-  
+}
