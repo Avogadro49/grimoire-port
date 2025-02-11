@@ -1,0 +1,76 @@
+.about_me_section {
+  padding: 50px;
+}
+
+.about_me_header {
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.about_me_content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.about_me_text {
+  font-family: "Courier New", Courier, monospace;
+  max-width: 40vw;
+  margin: 30px;
+}
+
+.about_me_text > span {
+  color: red;
+}
+
+.avatar_wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.avatar_border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  transform: scale(1.2);
+  transition: transform 1s ease;
+}
+
+.avatar_border:hover {
+  transform: scale(1.4);
+}
+
+.power_shell {
+  margin-left: auto;
+}
+
+.project_header {
+  font-weight: 100;
+  margin-left: 10%;
+}
+
+.project_content {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1039px) {
+  .about_me_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* ====lets see how its gonna work===== */
+  .about_me_section {
+    padding: 0px;
+  }
+
+  .power_shell {
+    margin: auto;
+  }
+}

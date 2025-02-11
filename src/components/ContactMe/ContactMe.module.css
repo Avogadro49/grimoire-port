@@ -1,0 +1,27 @@
+.contact {
+    padding: 50px;
+  }
+  
+  .contact_header {
+    /* should extract from where to global */
+    font-weight: 100;
+    font-size: 25px;
+  }
+  
+  .contact_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .contact_image {
+    max-width: 50%;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.87);
+  }
+  

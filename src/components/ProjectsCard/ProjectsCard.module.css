@@ -1,0 +1,12 @@
+.project_card {
+    max-width: 33%;
+    padding-inline: 20px;
+    padding-block: 10px;
+  }
+  
+  .project_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
