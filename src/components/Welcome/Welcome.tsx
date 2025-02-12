@@ -4,6 +4,7 @@ import styles from "./Welcome.module.css";
 import FlameImage from "../../static/images/Flame.svg";
 import GithubIcon from "../../static/icons/github-mark-white.svg";
 import EnvelopeIcon from "../../static/icons/envelope.svg";
+import WhoAMI from "../../static/icons/whoami.svg";
 import ButtonBorder from "../../static/icons/button_border.png";
 import useTypewriter from "../../hooks/useTypewriter";
 
@@ -54,12 +55,12 @@ const Welcome = () => {
               <a href="https://github.com/Avogadro49" target="_blank">
                 <button className={styles.get_in_touch_button}>
                   <img
-                    src={GithubIcon}
+                    src={WhoAMI}
                     width="40px"
                     height="40px"
-                    //   alt="Github Icon"
+                    alt="question mark icon"
                   />
-                  <span style={{ marginTop: "15px" }}>Github</span>
+                  <span style={{ marginTop: "15px" }}>WhoAmI</span>
                 </button>
               </a>
             </div>

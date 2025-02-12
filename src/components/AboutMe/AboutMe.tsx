@@ -46,7 +46,12 @@ const AboutMe = () => {
           because
           <span> "the best way to predict the future is to invent it." </span>
           Here is my resume {"=>"}{" "}
-          <a href={Resume} target="_blank" rel="noopener noreferrer">
+          <a
+            style={{ textDecoration: "underline" }}
+            href={Resume}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Resume
           </a>
         </p>

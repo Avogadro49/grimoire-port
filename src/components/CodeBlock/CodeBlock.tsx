@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import styles from "./CodeBlcok.module.css";
 
 interface CodeLine {
   type: "comment" | "command";
@@ -51,13 +52,12 @@ const CodeBlock: React.FC<CodeBlockProps> = ({
 
   return (
     <div
-      className="codeblock"
+      className={styles.codeblock}
       style={{
         // maxHeight: `${60 * line}px`,
         marginTop: "10px",
         backgroundColor: "#012456",
         padding: "30px",
-        fontSize: "clamp(12px, 2vw, 18px);",
       }}
     >
       <div className="codeblock-heading" style={{ borderBottom: "1px solid" }}>
