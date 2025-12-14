@@ -3,7 +3,7 @@ import styles from "./AboutMe.module.css";
 import Avatar from "../../static/images/avatar/my-avatar-forreal.png";
 import AvatarBorder from "../../static/images/avatar/avatar-border.png";
 import CodeBlock from "../../components/CodeBlock/CodeBlock";
-import Resume from "../../static/images/cv/real_cv.pdf";
+import Resume from "../../static/images/cv/my_real_cv.pdf";
 import ProjectsCard from "../ProjectsCard/ProjectsCard";
 
 const AboutMe = () => {
@@ -13,10 +13,9 @@ const AboutMe = () => {
     html, css, tailwind, bootstrap,
     chakra ui.
    back_end:
-   node.js, express.js, python, flask.py,
-   ASP.NET, blazor.
+   node.js, express.js, python, flask.py.
    version_control:
-   git, docker. 
+   git. 
    understanding SQL and NoSql databases`;
   return (
     <section className={styles.about_me_section}>

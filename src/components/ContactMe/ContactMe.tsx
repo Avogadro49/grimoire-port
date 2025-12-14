@@ -6,7 +6,7 @@ import PraseTheSun from "../../static/images/1727895521_new_praise the sun!.gif"
 const ContactMe = () => {
   const contactInfo = `>contact:
   Email: tedozashvilinika@gmail.com
-  Discord: bodysnatcher9999
+  Discord: odysseusdotexe
   Github: <a href="https://github.com/Avogadro49">Avogadro49</a> 
 
   # Or you can just send me message from here

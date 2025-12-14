@@ -7,6 +7,7 @@ import EnvelopeIcon from "../../static/icons/envelope.svg";
 import WhoAMI from "../../static/icons/whoami.svg";
 import ButtonBorder from "../../static/icons/button_border.png";
 import useTypewriter from "../../hooks/useTypewriter";
+import Resume from "../../static/images/cv/my_real_cv.pdf";
 
 const Welcome = () => {
   const text = "Heello, I'm Nika. A web developer";
@@ -52,7 +53,7 @@ const Welcome = () => {
                 />
               </div>
               <span className={styles.row_divider}></span>
-              <a href="https://github.com/Avogadro49" target="_blank">
+              <a href={Resume} target="_blank">
                 <button className={styles.get_in_touch_button}>
                   <img
                     src={WhoAMI}
